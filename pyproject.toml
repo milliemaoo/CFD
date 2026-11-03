@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cfd"
+version = "1.0.0"
+description = "Confidence-Aware Fine-Grained Debate"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = "==3.10.*"
+authors = [{ name = "Junyu Mao" }]
+
+# Pinned to the environment the paper's results were produced in.
+dependencies = [
+    "torch==2.4.1",
+    # A development build, not a release: 4.53.0.dev0 at this commit.
+    "transformers @ git+https://github.com/huggingface/transformers.git@21cb353b7b4f77c6f5f5c3341d660f86ff416d04",
+    "tokenizers==0.21.0",
+    "safetensors==0.5.3",
+    "huggingface-hub==0.33.0",
+    "accelerate==1.4.0",
+    # Agent models are loaded in 4-bit.
+    "bitsandbytes==0.45.2",
+    "sentencepiece==0.2.0",
+    "numpy==1.26.4",
+    "scipy==1.15.1",
+    "scikit-learn==1.5.1",
+    "pandas==2.2.3",
+    "datasets==3.3.2",
+    "nltk==3.9.1",
+    "tqdm==4.67.1",
+    "absl-py==2.4.0",
+    "rouge_score==0.1.2",
+    "sentence-transformers==3.4.1",
+    "typing_extensions==4.15.0",
+    "filelock==3.12.2",
+    "requests==2.32.3",
+    # Imported by the vendored lm_polygraph, which supports API models too.
+    "openai==0.28.0",
+    "fschat==0.2.36",
+]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2512.06227"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["debate*", "models*", "lm_polygraph*"]

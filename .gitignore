@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.DS_Store
+
+# Few-shot examples quote social-media post text verbatim and are not
+# distributed with the code. See prompts/README.md.
+prompts/*.txt
+
+# Experiment inputs and outputs
+data/
+results/

@@ -1,0 +1,19 @@
+CFD — Confidence-Aware Fine-Grained Debate
+Copyright (c) 2025 Junyu Mao
+
+This repository is derived from DebUnc, Copyright (c) 2024 Luke Yoffe,
+distributed under the MIT License.
+
+    https://github.com/lukeyoffe/debunc
+
+The code in src/lm_polygraph is based on the LM-Polygraph project, which this
+code uses to collect per-token log-probabilities and entropy during generation.
+It is distributed under the MIT License.
+
+    https://github.com/IINemo/lm-polygraph
+
+The _MultiTokenEOSCriteria class in src/models/model.py is taken from
+lm-evaluation-harness, as noted in the source. It is distributed under the MIT
+License.
+
+    https://github.com/EleutherAI/lm-evaluation-harness

@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "CFD — Confidence-Aware Fine-Grained Debate"
+authors:
+  - family-names: Mao
+    given-names: Junyu
+license: MIT
+preferred-citation:
+  type: article
+  title: "Automated Data Enrichment using Confidence-Aware Fine-Grained Debate among Open-Source LLMs for Mental Health and Online Safety"
+  authors:
+    - family-names: Mao
+      given-names: Junyu
+    - family-names: Hills
+      given-names: Anthony
+    - family-names: Tseriotou
+      given-names: Talia
+    - family-names: Liakata
+      given-names: Maria
+    - family-names: Shamir
+      given-names: Aya
+    - family-names: Sayda
+      given-names: Dan
+    - family-names: Atzil-Slonim
+      given-names: Dana
+    - family-names: Djohari
+      given-names: Natalie
+    - family-names: Ugwudike
+      given-names: Pamela
+    - family-names: Niranjan
+      given-names: Mahesan
+    - family-names: Middleton
+      given-names: Stuart E.
+  year: 2025
+  journal: "arXiv preprint arXiv:2512.06227"
+  url: "https://arxiv.org/abs/2512.06227"
