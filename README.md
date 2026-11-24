@@ -165,7 +165,14 @@ repository after publication.
 
 ## License
 
-MIT. See `LICENSE` and `NOTICE`.
+Copyright (c) 2026 University of Southampton.
+
+This repository is licensed under the
+[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+See `LICENSE`.
+
+Parts of this code are derived from third-party projects distributed under the
+MIT License; their copyright notices and license terms are in `NOTICE`.
 
 ## Acknowledgements
 
