@@ -1,3 +1,14 @@
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+######################################################################
+# (c) Copyright University of Southampton, 2026
+# Copyright in this software belongs to University of Southampton, Highfield, University Road, Southampton SO17 1BJ
+# Created By : Junyu Mao
+# Created Date : 2026/11/24
+# Project : ProTechThem
+# Portions adapted from DebUnc, (c) 2024 Luke Yoffe, MIT License (see NOTICE)
+######################################################################
+
 """Entropy-based confidence debate driver for sharenting.
 
 Confidence comes from the token entropy of each agent's own generation.
