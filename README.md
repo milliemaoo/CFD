@@ -1,8 +1,11 @@
 # CFD — Confidence-Aware Fine-Grained Debate
 
 Code for *Automated Data Enrichment using Confidence-Aware Fine-Grained Debate
-among Open-Source LLMs for Mental Health and Online Safety*
+among Open-Weight LLMs for Mental Health and Online Safety*
 ([arXiv:2512.06227](https://arxiv.org/abs/2512.06227)).
+This code was developed as part of the
+[ProTechThem](http://www.protechthem.org/) project (Building Awareness for
+Safer and Technology-Savvy Sharenting).
 
 CFD enriches a dataset with multi-label annotations in the way human annotators
 collaborate. Open-source LLM agents first annotate independently; if they agree,
